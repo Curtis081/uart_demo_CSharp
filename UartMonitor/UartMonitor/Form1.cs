@@ -221,5 +221,10 @@ namespace UartMonitor
                 }
             }
         }
+
+        private void MyGitHubLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Curtis081");
+        }
     }
 }

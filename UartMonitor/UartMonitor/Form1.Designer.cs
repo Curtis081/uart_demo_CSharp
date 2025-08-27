@@ -48,6 +48,7 @@
             this.ClearReceivedButton = new System.Windows.Forms.Button();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.SaveReceivedButton = new System.Windows.Forms.Button();
+            this.MyGitHubLinkLabel = new System.Windows.Forms.LinkLabel();
             this.SendDataGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -248,11 +249,22 @@
             this.SaveReceivedButton.UseVisualStyleBackColor = true;
             this.SaveReceivedButton.Click += new System.EventHandler(this.SaveReceivedButton_Click);
             // 
+            // MyGitHubLinkLabel
+            // 
+            this.MyGitHubLinkLabel.Location = new System.Drawing.Point(239, 336);
+            this.MyGitHubLinkLabel.Name = "MyGitHubLinkLabel";
+            this.MyGitHubLinkLabel.Size = new System.Drawing.Size(69, 13);
+            this.MyGitHubLinkLabel.TabIndex = 0;
+            this.MyGitHubLinkLabel.TabStop = true;
+            this.MyGitHubLinkLabel.Text = "My GitHub";
+            this.MyGitHubLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.MyGitHubLinkLabel_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 361);
+            this.Controls.Add(this.MyGitHubLinkLabel);
             this.Controls.Add(this.SaveReceivedButton);
             this.Controls.Add(this.ClearReceivedButton);
             this.Controls.Add(this.OpenComPortButton);
@@ -299,6 +311,7 @@
         private System.Windows.Forms.Button ClearReceivedButton;
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.Button SaveReceivedButton;
+        private System.Windows.Forms.LinkLabel MyGitHubLinkLabel;
     }
 }
 
