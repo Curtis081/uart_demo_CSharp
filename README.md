@@ -11,4 +11,4 @@
 - 若使用 USB-to-Serial 轉接器，請確認已正確安裝對應驅動程式
 
 ## Demo
-<img src="docs/images/UartMonitorDemo.png" alt="README generator GUI" width="500">
+<img src="docs/images/UartMonitor.png" alt="README generator GUI" width="500">
