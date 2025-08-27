@@ -7,7 +7,7 @@
 
 ## 需求環境
 - .NET 版本（請依實際專案決定，例如 .NET 6, .NET Framework 4.7.2 等）
-- 作業系統：Windows（若支援跨平台請補充）
+- 作業系統：Windows
 - 若使用 USB-to-Serial 轉接器，請確認已正確安裝對應驅動程式
 
 ## Demo
